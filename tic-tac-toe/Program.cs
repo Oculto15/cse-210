@@ -26,7 +26,6 @@
         player2 = Console.ReadLine();
         Console.WriteLine($"{player1} is O and {player2} is X.");
         Console.WriteLine($"{player1} goes first.");
-        Console.ReadLine();
         Console.Clear();
 
         while (playing == true)
@@ -82,8 +81,9 @@
                     }
                 }
 
-                turn = Win();
-
+                
+                turn = Win() || Draw();
+                
                 if (turn == false)
                 {
                     if (roll == 1)
@@ -97,11 +97,12 @@
                     Console.Clear();
                 }
             }
+            if (Win() == false && Draw() == true){
+            Console.WriteLine("It's a draw!");
+            break;
+            }  
             
-            if (turn == false){
-                Console.WriteLine("It's a draw!");
-            }
-
+           
             if (turn == true)
             {
                 if (roll == 1){
@@ -114,78 +115,57 @@
                 }
                 break;
             }
+            
+            
         }
     }
 
     static bool Win()
     {
-        if (list[1] == "O" && list[2] == "O" && list[3] == "O")
+        if (list[1] == list[2] && list[2] == list[3])
         {
             return true;
         }
-        else if (list[4] == "O" && list[5] == "O" && list[6] == "O")
+        else if (list[4] == list[5] && list[5] == list[6])
         {
             return true;
         }
-        else if (list[7] == "O" && list[8] == "O" && list[9] == "O")
+        else if (list[7] == list[8] && list[8] == list[9])
         {
             return true;
         }
-        else if (list[1] == "O" && list[5] == "O" && list[9] == "O")
+        else if (list[1] == list[5] && list[5] == list[9])
         {
             return true;
         }
-        else if (list[7] == "O" && list[5] == "O" && list[3] == "O")
+        else if (list[7] == list[5] && list[5] == list[3])
         {
             return true;
         }
-        else if (list[1] == "O" && list[4] == "O" && list[7] == "O")
+        else if (list[1] == list[4] && list[4] == list[7])
         {
             return true;
         }
-        else if (list[2] == "O" && list[5] == "O" && list[8] == "O")
+        else if (list[2] == list[5] && list[5] == list[8])
         {
             return true;
         }
-        else if (list[3] == "O" && list[6] == "O" && list[9] == "O")
+        else if (list[3] == list[6] && list[6] == list[9])
         {
             return true;
         }
-        else if (list[1] == "X" && list[2] == "X" && list[3] == "X")
-        {
+        else {
+            return false;
+        }
+    }
+    static bool Draw()
+    {
+        if (list[1] != "1" && list[2] != "2"  && list[3] != "3"  && list[4] != "4"  && list[5] != "5"  && list[6] != "6"  && list[7] != "7"  && list[8] != "8"  && list[9] != "9" ){
             return true;
         }
-        else if (list[4] == "X" && list[5] == "X" && list[6] == "X")
-        {
-            return true;
-        }
-        else if (list[7] == "X" && list[8] == "X" && list[9] == "X")
-        {
-            return true;
-        }
-        else if (list[1] == "X" && list[5] == "X" && list[9] == "X")
-        {
-            return true;
-        }
-        else if (list[7] == "X" && list[5] == "X" && list[3] == "X")
-        {
-            return true;
-        }
-        else if (list[1] == "X" && list[4] == "X" && list[7] == "X")
-        {
-            return true;
-        }
-        else if (list[2] == "X" && list[5] == "X" && list[8] == "X")
-        {
-            return true;
-        }
-        else if (list[3] == "X" && list[6] == "X" && list[9] == "X")
-        {
-            return true;
-        }
-        else
-        {
+        else {
             return false;
         }
     }
 }
+
