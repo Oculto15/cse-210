@@ -1,0 +1,5 @@
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/netcoreapp2.0/Hilo.csproj.AssemblyReference.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/netcoreapp2.0/Hilo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/netcoreapp2.0/Hilo.AssemblyInfoInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/netcoreapp2.0/Hilo.AssemblyInfo.cs
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/netcoreapp2.0/Hilo.csproj.CoreCompileInputs.cache
