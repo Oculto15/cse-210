@@ -72,7 +72,6 @@
         return choice;
     }
 
-
     public int NextCard(int nextcard)
     {
         nextCard = this.deck.RandomNumber();
@@ -81,7 +80,6 @@
         return nextCard;
     }
 
-    // Assigns the corresponding points based on the user's choice
     public int Points(string choice, int nextCard, int Card)
     {
         if (choice == "h" && nextCard > Card)
