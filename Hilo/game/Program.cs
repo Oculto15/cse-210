@@ -2,8 +2,8 @@
 {
     Deck deck;
     int score;
-    int nextCard;
     int Card;
+    int nextCard;
 
     public Player()
     {
