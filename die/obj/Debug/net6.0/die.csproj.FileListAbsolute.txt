@@ -1,0 +1,5 @@
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/die/obj/Debug/net6.0/die.csproj.AssemblyReference.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/die/obj/Debug/net6.0/die.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/die/obj/Debug/net6.0/die.AssemblyInfoInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/die/obj/Debug/net6.0/die.AssemblyInfo.cs
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/die/obj/Debug/net6.0/die.csproj.CoreCompileInputs.cache

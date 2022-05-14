@@ -1,0 +1,15 @@
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/Hilo.csproj.AssemblyReference.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/Hilo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/Hilo.AssemblyInfoInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/Hilo.AssemblyInfo.cs
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/Hilo.csproj.CoreCompileInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/bin/Debug/net6.0/Hilo
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/bin/Debug/net6.0/Hilo.deps.json
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/bin/Debug/net6.0/Hilo.runtimeconfig.json
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/bin/Debug/net6.0/Hilo.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/bin/Debug/net6.0/Hilo.pdb
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/Hilo.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/refint/Hilo.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/Hilo.pdb
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/Hilo.genruntimeconfig.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Hilo/obj/Debug/net6.0/ref/Hilo.dll
