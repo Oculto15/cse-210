@@ -1,0 +1,15 @@
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/bin/Debug/net6.0/C#_solo_prep_5
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/bin/Debug/net6.0/C#_solo_prep_5.deps.json
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/bin/Debug/net6.0/C#_solo_prep_5.runtimeconfig.json
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/bin/Debug/net6.0/C#_solo_prep_5.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/bin/Debug/net6.0/C#_solo_prep_5.pdb
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/C#_solo_prep_5.csproj.AssemblyReference.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/C#_solo_prep_5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/C#_solo_prep_5.AssemblyInfoInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/C#_solo_prep_5.AssemblyInfo.cs
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/C#_solo_prep_5.csproj.CoreCompileInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/C#_solo_prep_5.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/refint/C#_solo_prep_5.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/C#_solo_prep_5.pdb
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/C#_solo_prep_5.genruntimeconfig.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_5/obj/Debug/net6.0/ref/C#_solo_prep_5.dll
