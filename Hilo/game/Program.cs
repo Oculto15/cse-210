@@ -98,6 +98,15 @@
         {
             score -= 75;
         }
+        else if(choice == "l" && nextCard >= Card || nextCard <= Card )
+        {
+            score -= 0;
+        }
+
+        else if(choice == "h" && nextCard >= Card || nextCard <= Card )
+        {
+            score -= 0;
+        }
 
         return score;
     }
