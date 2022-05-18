@@ -1,0 +1,15 @@
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/bin/Debug/net6.0/Unit03
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/bin/Debug/net6.0/Unit03.deps.json
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/bin/Debug/net6.0/Unit03.runtimeconfig.json
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/bin/Debug/net6.0/Unit03.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/bin/Debug/net6.0/Unit03.pdb
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/Unit03.csproj.AssemblyReference.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/Unit03.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/Unit03.AssemblyInfoInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/Unit03.AssemblyInfo.cs
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/Unit03.csproj.CoreCompileInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/Unit03.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/refint/Unit03.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/Unit03.pdb
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/Unit03.genruntimeconfig.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/unit03/obj/Debug/net6.0/ref/Unit03.dll
