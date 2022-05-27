@@ -1,2 +1,13 @@
-Player player = new Player();
-player.Start();
+
+public class player{
+    
+
+    public void numberWins(){
+        
+
+    }
+
+    public void choices(){
+
+    }
+}
