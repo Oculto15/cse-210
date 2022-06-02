@@ -1,21 +1,23 @@
 class game{
 
+    List<string> array;
+    Board board; 
+    int count;
+
+    public game() {
+        board = new Board();
+        this.array = board.Array();
+        count = board.numList();
+        
+    }
 
     public void startGame(){
 
         Console.WriteLine("Welcome to Jumper!!!!!!!!!!");
-        this.WriteLetters();
-        
+        this.WriteLetters();  
     }
     
-    public List<string> Array(){
-        var list = new List<string>  {"  _____", @" /_____\", @" \     /", @"  \   /", "    O", @"   /|\", @"   / \","","^^^^^^^^^"};
-
-        foreach(string i in list){
-            Console.WriteLine(i);
-        }
-        return list;
-    }
+   
 
     public string listWords(){
         string[] word = {"robot", "hello"};
@@ -26,30 +28,39 @@ class game{
 
     public void WriteLetters(){
         string mysteryWord = listWords();
-       var list = Array();
+        var list = this.array;
         char[] guess = new char[mysteryWord.Length];
         for (int p = 0; p < mysteryWord.Length; p++)
             guess[p] = '_';  
 
-        while (true)
+        while (count > 5)
         {
             Console.WriteLine("");
             Console.WriteLine(guess);
             Console.WriteLine("");
-            this.Array();
-            Console.Write("Guess a letter [a-z] "); Console.ReadLine();
-            Console.WriteLine("");
+            board.Draw(this.array);
+            Console.Write("Guess a letter [a-z] "); 
             char playerGuess = char.Parse(Console.ReadLine());
+            Console.WriteLine("");
+            
             for (int j = 0; j < mysteryWord.Length; j++)
             {
                 if (playerGuess == mysteryWord[j]){
                     guess[j] = playerGuess;
                 }
-                if (playerGuess != mysteryWord[j]){
+                
+            }
+
+            if (!mysteryWord.Contains(playerGuess)){
                     list.RemoveAt(0);
                 }
-            }
+            
+            count = this.array.Count;
         }
+        
+        this.array[0] = "    x";
+        board.Draw(this.array);
+
     }
 
 };
