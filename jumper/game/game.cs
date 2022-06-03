@@ -20,7 +20,7 @@ class game{
    
 
     public string listWords(){
-        string[] word = {"robot", "hello"};
+        string[] word = {"robot", "hello", "details", "jumper", "wallet", "catdog", "pencil", "bagpack"};
         Random random = new Random();
         var idx = new Random().Next(0,word.Length);
         return word[idx];
@@ -42,13 +42,15 @@ class game{
             Console.Write("Guess a letter [a-z] "); 
             char playerGuess = char.Parse(Console.ReadLine());
             Console.WriteLine("");
+
+            List<int> blankSpaces = new List<int>();
             
             for (int j = 0; j < mysteryWord.Length; j++)
             {
                 if (playerGuess == mysteryWord[j]){
                     guess[j] = playerGuess;
                 }
-                
+
             }
 
             if (!mysteryWord.Contains(playerGuess)){
@@ -56,11 +58,26 @@ class game{
                 }
             
             count = this.array.Count;
-        }
-        
-        this.array[0] = "    x";
-        board.Draw(this.array);
 
+
+            // for (int j = 0; j < mysteryWord.Length; j++){
+            //     blankSpaces.Add(j);
+
+            //     int listLenght = blankSpaces.Count;
+                
+            //     if (count == listLenght){
+            //         Console.WriteLine("You win!");
+            //     }
+            // }
+
+        }
+    
+            this.array[0] = "    x";
+            board.Draw(this.array);
+            Console.WriteLine("You lose the game!");
+        
+        
     }
+    
 
 };
