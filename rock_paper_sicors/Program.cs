@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Player playerone = new Player();
+// playerone.makeChoice();
+// Console.WriteLine(playerone.getWins());
+
+Director d = new Director();
+d.StartGame();

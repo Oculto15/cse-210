@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/ignaciovillaramun/.nuget/packages/": {}
+    "C:\\Users\\arh62\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/rock_paper_sicors/rock_paper_sicors.csproj",
-      "projectName": "rock_paper_sicors",
-      "projectPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/rock_paper_sicors/rock_paper_sicors.csproj",
-      "packagesPath": "/Users/ignaciovillaramun/.nuget/packages/",
-      "outputPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/rock_paper_sicors/obj/",
+      "projectUniqueName": "C:\\Users\\arh62\\byui\\git\\csharp-oop\\personal\\week6-rps\\week6-rps.csproj",
+      "projectName": "week6-rps",
+      "projectPath": "C:\\Users\\arh62\\byui\\git\\csharp-oop\\personal\\week6-rps\\week6-rps.csproj",
+      "packagesPath": "C:\\Users\\arh62\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arh62\\byui\\git\\csharp-oop\\personal\\week6-rps\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ignaciovillaramun/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\arh62\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

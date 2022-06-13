@@ -1,0 +1,15 @@
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\week6-rps.csproj.AssemblyReference.cache
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\week6-rps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\week6-rps.AssemblyInfoInputs.cache
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\week6-rps.AssemblyInfo.cs
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\week6-rps.csproj.CoreCompileInputs.cache
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\bin\Debug\net6.0\week6-rps.exe
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\bin\Debug\net6.0\week6-rps.deps.json
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\bin\Debug\net6.0\week6-rps.runtimeconfig.json
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\bin\Debug\net6.0\week6-rps.dll
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\bin\Debug\net6.0\week6-rps.pdb
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\week6-rps.dll
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\refint\week6-rps.dll
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\week6-rps.pdb
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\week6-rps.genruntimeconfig.cache
+C:\Users\arh62\byui\git\csharp-oop\personal\week6-rps\obj\Debug\net6.0\ref\week6-rps.dll

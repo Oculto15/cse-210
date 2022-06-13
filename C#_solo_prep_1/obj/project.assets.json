@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/CSE 210.csproj",
+      "projectUniqueName": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_1/CSE 210.csproj",
       "projectName": "CSE 210",
-      "projectPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/CSE 210.csproj",
+      "projectPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_1/CSE 210.csproj",
       "packagesPath": "/Users/ignaciovillaramun/.nuget/packages/",
-      "outputPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/obj/",
+      "outputPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/C#_solo_prep_1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ignaciovillaramun/.nuget/NuGet/NuGet.Config"

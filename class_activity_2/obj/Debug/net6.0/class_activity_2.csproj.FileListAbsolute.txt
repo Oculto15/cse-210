@@ -1,0 +1,15 @@
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/bin/Debug/net6.0/class_activity_2
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/bin/Debug/net6.0/class_activity_2.deps.json
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/bin/Debug/net6.0/class_activity_2.runtimeconfig.json
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/bin/Debug/net6.0/class_activity_2.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/bin/Debug/net6.0/class_activity_2.pdb
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/class_activity_2.csproj.AssemblyReference.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/class_activity_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/class_activity_2.AssemblyInfoInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/class_activity_2.AssemblyInfo.cs
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/class_activity_2.csproj.CoreCompileInputs.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/class_activity_2.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/refint/class_activity_2.dll
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/class_activity_2.pdb
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/class_activity_2.genruntimeconfig.cache
+/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/class_activity_2/obj/Debug/net6.0/ref/class_activity_2.dll
