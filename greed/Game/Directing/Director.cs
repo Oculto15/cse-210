@@ -71,12 +71,14 @@ namespace Unit04.Game.Directing
 
             foreach (Actor actor in artifacts)
             {
+                actor.MoveNext(maxX,maxY);
+                Artifact artifact = (Artifact) actor;
+
                 if (robot.GetPosition().Equals(actor.GetPosition()))
                 {
-                    Artifact artifact = (Artifact) actor;
-                    string message = artifact.GetMessage();
-                    banner.SetText(message);
+                    
                 }
+                
             } 
         }
 
