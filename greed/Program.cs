@@ -21,8 +21,9 @@ namespace Unit04
         private static int FONT_SIZE = 15;
         private static int COLS = 60;
         private static int ROWS = 40;
-        private static string CAPTION = "Robot Finds Kitten";
-        private static string DATA_PATH = "Data/messages.txt";
+        private static string CAPTION = "Greed";
+
+        // private static string DATA_PATH = "Data/messages.txt";
         private static Color WHITE = new Color(255, 255, 255);
         private static int DEFAULT_ARTIFACTS = 40;
 
@@ -53,7 +54,7 @@ namespace Unit04
             cast.AddActor("robot", robot);
 
             // load the messages
-            List<string> messages = File.ReadAllLines(DATA_PATH).ToList<string>();
+            // List<string> messages = File.ReadAllLines(DATA_PATH).ToList<string>();
 
             // create the artifacts
             Random random = new Random();
@@ -61,7 +62,7 @@ namespace Unit04
             {
                 // string text = ((char)random.Next(33, 126)).ToString();
                 string text = "O";
-                string message = messages[i];
+                // string message = messages[i];
 
                 int x = random.Next(1, COLS);
                 int y = random.Next(1, ROWS);
@@ -78,7 +79,7 @@ namespace Unit04
                 artifact.SetFontSize(FONT_SIZE);
                 artifact.SetColor(color);
                 artifact.SetPosition(position);
-                artifact.SetMessage(message);
+                // artifact.SetMessage(message);
                 cast.AddActor("artifacts", artifact);
                 artifact.SetVelocity(new Point(0, CELL_SIZE));
             }
@@ -87,7 +88,7 @@ namespace Unit04
             {
                 // string text = ((char)random.Next(33, 126)).ToString();
                 string text = "*";
-                string message = messages[i];
+                // string message = messages[i];
 
                 int x = random.Next(1, COLS);
                 int y = random.Next(1, ROWS);
@@ -102,9 +103,10 @@ namespace Unit04
                 Artifact artifact = new Artifact();
                 artifact.SetText(text);
                 artifact.SetFontSize(FONT_SIZE);
+                
                 artifact.SetColor(color);
                 artifact.SetPosition(position);
-                artifact.SetMessage(message);
+                // artifact.SetMessage(message);
                 cast.AddActor("artifacts", artifact);
                 artifact.SetVelocity(new Point(0, 10));
             }
