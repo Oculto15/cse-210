@@ -68,7 +68,8 @@ namespace Unit04
                 int x = random.Next(1, COLS);
                 int y = random.Next(1, ROWS);
                 Point position = new Point(x, y);
-                position = position.Scale(9);
+                
+                position = position.Scale(CELL_SIZE);
 
                 int r = random.Next(0, 256);
                 int g = random.Next(0, 256);

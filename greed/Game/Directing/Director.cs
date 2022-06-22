@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System;
 using Unit04.Game.Casting;
 using Unit04.Game.Services;
 
@@ -80,6 +81,7 @@ namespace Unit04.Game.Directing
                     Artifact artifact = (Artifact) actor;
                     score += artifact.GetScore();
                     banner.SetText($"score: {score}");
+                 
                 }
                 
             } 
