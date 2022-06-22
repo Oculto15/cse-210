@@ -13,6 +13,7 @@ namespace Unit04.Game.Directing
     /// </summary>
     public class Director
     {
+        public int score = 0;
         private KeyboardService keyboardService = null;
         private VideoService videoService = null;
 
@@ -64,7 +65,7 @@ namespace Unit04.Game.Directing
             Actor robot = cast.GetFirstActor("robot");
             List<Actor> artifacts = cast.GetActors("artifacts");
 
-            banner.SetText("");
+            banner.SetText($"score: {score.ToString()}");
             int maxX = videoService.GetWidth();
             int maxY = videoService.GetHeight();
             robot.MoveNext(maxX, maxY);
@@ -72,11 +73,13 @@ namespace Unit04.Game.Directing
             foreach (Actor actor in artifacts)
             {
                 actor.MoveNext(maxX,maxY);
-                Artifact artifact = (Artifact) actor;
+                
 
                 if (robot.GetPosition().Equals(actor.GetPosition()))
                 {
-                    
+                    Artifact artifact = (Artifact) actor;
+                    score += artifact.GetScore();
+                    banner.SetText($"score: {score}");
                 }
                 
             } 

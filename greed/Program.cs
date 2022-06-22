@@ -79,16 +79,16 @@ namespace Unit04
                 artifact.SetFontSize(FONT_SIZE);
                 artifact.SetColor(color);
                 artifact.SetPosition(position);
-                // artifact.SetMessage(message);
+                artifact.SetScore(-100);
                 cast.AddActor("artifacts", artifact);
                 artifact.SetVelocity(new Point(0, CELL_SIZE));
             }
 
             for (int i = 0; i < DEFAULT_ARTIFACTS / 2; i++)
             {
-                // string text = ((char)random.Next(33, 126)).ToString();
-                string text = "*";
-                // string message = messages[i];
+               
+                string text = "gem";
+             
 
                 int x = random.Next(1, COLS);
                 int y = random.Next(1, ROWS);
@@ -106,7 +106,7 @@ namespace Unit04
                 
                 artifact.SetColor(color);
                 artifact.SetPosition(position);
-                // artifact.SetMessage(message);
+                artifact.SetScore(100);
                 cast.AddActor("artifacts", artifact);
                 artifact.SetVelocity(new Point(0, 10));
             }
