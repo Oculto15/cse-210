@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ROKhZBlch0rVpldOasVxDw6DxAfP924928E/b9twFkiXMDHei4aXKCKRFSkpUD/h3Czz3flI+oS8m3ys0W9msQ==",
+  "success": true,
+  "projectFilePath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Cycle/Unit05.csproj",
+  "expectedPackageFiles": [
+    "/Users/ignaciovillaramun/.nuget/packages/raylib-cs/4.0.0.1/raylib-cs.4.0.0.1.nupkg.sha512",
+    "/Users/ignaciovillaramun/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
