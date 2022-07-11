@@ -29,6 +29,6 @@ namespace Unit05.Game
         public static Color GREEN = new Color(0, 255, 0);
         public static Color BLUE = new Color(0, 0, 255);
 
+
     }
 }
-
