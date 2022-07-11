@@ -43,14 +43,22 @@ namespace Unit05.Game.Scripting
         private void HandleFoodCollisions(Cast cast)
         {
             Snake snake = (Snake)cast.GetFirstActor("snake");
-            Score score = (Score)cast.GetFirstActor("score");
+            Snake snake2 = (Snake)cast.GetFirstActor("snake2");
+
             Food food = (Food)cast.GetFirstActor("food");
             
-            if (snake.GetHead().GetPosition().Equals(food.GetPosition()))
+             if (snake.GetHead().GetPosition().Equals(food.GetPosition()))
             {
                 int points = food.GetPoints();
                 snake.GrowTail(points);
-                score.AddPoints(points);
+                // score1.AddPoints(points, player1);
+                food.Reset();
+            }
+            else if (snake2.GetHead().GetPosition().Equals(food.GetPosition()))
+            {
+                int points = food.GetPoints();
+                snake2.GrowTail(points);
+                // score2.AddPoints(points, player2);
                 food.Reset();
             }
         }
@@ -62,10 +70,21 @@ namespace Unit05.Game.Scripting
         private void HandleSegmentCollisions(Cast cast)
         {
             Snake snake = (Snake)cast.GetFirstActor("snake");
+            Snake snake2 = (Snake)cast.GetFirstActor("snake2");
             Actor head = snake.GetHead();
+            Actor head2 = snake2.GetHead();
             List<Actor> body = snake.GetBody();
+            List<Actor> body2 = snake2.GetBody();
 
             foreach (Actor segment in body)
+            {
+                if (segment.GetPosition().Equals(head2.GetPosition()))
+                {
+                        isGameOver = true;
+                }
+            }
+
+            foreach (Actor segment in body2)
             {
                 if (segment.GetPosition().Equals(head.GetPosition()))
                 {
@@ -80,7 +99,9 @@ namespace Unit05.Game.Scripting
             {
                 Snake snake = (Snake)cast.GetFirstActor("snake");
                 List<Actor> segments = snake.GetSegments();
-                Food food = (Food)cast.GetFirstActor("food");
+                Snake snake2 = (Snake)cast.GetFirstActor("snake2");
+                List<Actor> segments2 = snake2.GetSegments();
+                // Food food = (Food)cast.GetFirstActor("food");
 
                 // create a "game over" message
                 int x = Constants.MAX_X / 2;
@@ -88,7 +109,7 @@ namespace Unit05.Game.Scripting
                 Point position = new Point(x, y);
 
                 Actor message = new Actor();
-                message.SetText("Game Over!");
+                message.SetText("Game Over! You lost");
                 message.SetPosition(position);
                 cast.AddActor("messages", message);
 
@@ -97,7 +118,12 @@ namespace Unit05.Game.Scripting
                 {
                     segment.SetColor(Constants.WHITE);
                 }
-                food.SetColor(Constants.WHITE);
+
+                foreach (Actor segment in segments2)
+                {
+                    segment.SetColor(Constants.WHITE);
+                }
+                // food.SetColor(Constants.WHITE);
             }
         }
 

@@ -16,7 +16,7 @@ namespace Unit04.Game.Services
         private int cellSize = 15;
         private string caption = "";
         private int width = 640;
-        private int height = 480;
+        private int height = 1880;
         private int frameRate = 0;
         private bool debug = false;
 
