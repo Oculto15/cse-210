@@ -1,6 +1,6 @@
 using Unit05.Game.Casting;
 using Unit05.Game.Services;
-using System;
+
 
 namespace Unit05.Game.Scripting
 {
@@ -51,7 +51,7 @@ namespace Unit05.Game.Scripting
                 direction = new Point(0, Constants.CELL_SIZE);
             }
 
-            // left
+              // left
             if (keyboardService.IsKeyDown("j"))
             {
                 direction2 = new Point(-Constants.CELL_SIZE, 0);
@@ -80,6 +80,7 @@ namespace Unit05.Game.Scripting
 
             Snake snake = (Snake)cast.GetFirstActor("snake");
             snake.TurnHead(direction);
+
         }
     }
 }

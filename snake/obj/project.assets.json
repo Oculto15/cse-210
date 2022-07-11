@@ -124,11 +124,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Unit05/Unit05.csproj",
+      "projectUniqueName": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Cycle/Unit05.csproj",
       "projectName": "Unit05",
-      "projectPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Unit05/Unit05.csproj",
+      "projectPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Cycle/Unit05.csproj",
       "packagesPath": "/Users/ignaciovillaramun/.nuget/packages/",
-      "outputPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Unit05/obj/",
+      "outputPath": "/Users/ignaciovillaramun/Desktop/BYU-I/CSE 210/Cycle/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ignaciovillaramun/.nuget/NuGet/NuGet.Config"

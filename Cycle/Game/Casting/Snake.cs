@@ -63,7 +63,7 @@ namespace Unit05.Game.Casting
                 Actor segment = new Actor();
                 segment.SetPosition(position);
                 segment.SetVelocity(velocity);
-                segment.SetText("O");
+                segment.SetText("o");
                 segment.SetColor(tail.GetColor());
                 segments.Add(segment);
             }
@@ -106,7 +106,7 @@ namespace Unit05.Game.Casting
             {
                 Point position = new Point(x , y - i * Constants.CELL_SIZE);
                 Point velocity = new Point(0, 1 * Constants.CELL_SIZE);
-                string text = i == 0 ? "8" : "O";
+                string text = i == 0 ? "8" : "o";
 
                 Actor segment = new Actor();
                 segment.SetPosition(position);
